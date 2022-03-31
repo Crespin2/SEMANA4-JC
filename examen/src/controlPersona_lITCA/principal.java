@@ -66,7 +66,7 @@ public class principal {
             ar.setCodigoArea(_codigoArea);
             ar.setCatidadEmpleados(_cantidadEmpleados);
             ar.setNumEdificios(_numEdificios);
-            System.out.println("-TIPO DE EMPLEADO-: ");
+            System.out.println("-SELECCIONE TIPO DE EMPLEADO-: ");
             System.out.println("1. Docente: ");
             System.out.println("2. Administrativo: ");
             long _tipoEmpleado=Long.parseLong(leer.readLine());
@@ -75,7 +75,7 @@ public class principal {
             double salarioD=Double.parseDouble(leer.readLine());
             //docente
             if (_tipoEmpleado==1){
-                 System.out.println("-DOICENTE-: ");
+                 System.out.println("-SELECCIONE TIPO DE DOCENTE-: ");
             System.out.println("1. Permanente: ");
             System.out.println("2. por servicio: ");
             long _tipoDocente=Long.parseLong(leer.readLine());
